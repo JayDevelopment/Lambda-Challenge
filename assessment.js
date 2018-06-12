@@ -9,7 +9,7 @@ After writing your function uncomment the matching function reference at the bot
 function helloWorld() {
      return 'Hello World!'
 }
-
+helloWorld();
 
 /*
 2. Write a function called lambdaSchool that has a single parameter called num.
@@ -34,7 +34,7 @@ function lambdaSchool(num) {
      return num;
 }
 }
-
+lambdaSchool();
 /*
 3. Write a function called longestString that has a single parameter called strs.
      strs will be an array of strings.
@@ -53,7 +53,7 @@ function longestString(strs) {
      }
      return longest;
 }
-
+longestString();
 /*
 4. Write a function called computeUserAverageAge that has a single parameter called users
      users is an array of user objects.
@@ -76,7 +76,7 @@ function longestString(strs) {
  function computeUserAverageAge(users) {
   return Math.round(users.reduce((acc, obj) => acc + obj.age, 0) / users.length);
 };
-
+computeUserAverageAge();
 module.exports = {
  helloWorld,
  lambdaSchool,
